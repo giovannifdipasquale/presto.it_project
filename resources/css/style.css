@@ -1,0 +1,398 @@
+/* PALETTE COLORI */
+
+:root {
+    /* --main: #f1f8e9; */
+    --main: whitesmoke;
+    --color-p: rgb(25, 25, 35);
+    --acc: rgb(239, 183, 10);
+    --acc-o: rgb(239, 183, 10, 0.7);
+    --main-o: rgba(107, 129, 140, 0.6);
+}
+
+.colorMain {
+    color: var(--main);
+}
+
+.colorSec {
+    color: var(--color-p);
+}
+
+.colorAcc {
+    color: var(--acc);
+}
+
+.colorIcon {
+    color: var(--acc);
+}
+
+.colorIcon:hover {
+    color: var(--color-p);
+}
+
+.bgColorMain {
+    background-color: var(--main);
+}
+
+.bgColorMainO {
+    background-color: var(--main-o);
+}
+
+.bgColorSec {
+    background-color: var(--color-p);
+}
+
+.bgColorAcc {
+    background-color: var(--acc);
+}
+
+.bgColorAccO {
+    background-color: var(--acc-o);
+}
+
+/* CARATTERI */
+
+/* * {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto", sans-serif;
+} */
+
+/* INIZIO BODY */
+
+body {
+    background-color: var(--main);
+}
+
+/* FINE BODY */
+
+/* INIZIO PREVIEW IMMAGINI */
+
+.img-preview {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}
+
+/* .img-show {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+} */
+
+/* FINE PREVIEW IMMAGINI */
+
+
+/* INIZIO CLASSE ALTEZZA FORM DI ACCESSO */
+
+.height-custom {
+    min-height: 60vh;
+}
+
+/* FINE CLASSE ALTEZZA FORM DI ACCESSO */
+
+
+/* INIZIO NAVBAR */
+
+.transition {
+    transition: 0.8s;
+}
+
+.navCustom {
+    background-color: var(--color-p);
+}
+
+.navCustomScroll {
+    background-color: var(--main-o);
+    margin: 2vh 2vw;
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+}
+
+.nav-link:hover {
+    color: var(--acc) !important;
+    text-shadow: 0px 0px 10px rgb(239, 183, 10, 0.7);
+}
+
+/* FINE NAVBAR */
+
+
+/*  INIZIO STILI SEARCH BAR */
+
+.dropdownButton {
+    width: 30vw;
+    border: var(--sec) 1px solid;
+    border-radius: 2px;
+    background-color: var(--color-p);
+    color: var(--main);
+}
+
+.dropdownButton:hover {
+    color: var(--acc);
+    background-color: var(--color-p);
+}
+
+.dropdownItems {
+    width: 30vw;
+}
+
+.container-search {
+    background-color: var(--main-o);
+}
+
+.btn-custom {
+    color: var(--color-p);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.btn-custom:hover {
+    border: 2px solid var(--color-p);
+    color: var(--color-p);
+}
+
+.div-col {
+    height: 7vh;
+}
+
+.btn-search {
+    color: var(--acc);
+    background-color: var(--color-p);
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.btn-search:hover {
+    color: var(--color-p);
+    background-color: var(--main);
+}
+
+/* FINE STILI SEARCH BAR */
+
+
+/* INIZIO STILE CATEGORY CARD */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 1rem;
+
+}
+
+.category-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* gap: 1rem; */
+}
+
+.category-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.category-card {
+    border: 2px solid transparent;
+    /* transition: 0.3s ease-in-out; */
+    background-color: var(--color-p);
+    color: var(--acc);
+}
+
+.category-card:hover {
+    border: 2px solid var(--color-p);
+    background-color: var(--acc);
+    color: var(--color-p);
+}
+
+.categoryButton {
+    color: var(--acc);
+    background-color: var(--color-p);
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    /* text-decoration: none; */
+    /* text-wrap: nowrap; */
+}
+
+.categoryButton:hover {
+    background-color: var(--acc);
+    color: var(--color-p);
+}
+
+/* FINE STILE CATEGORY CARD */
+
+
+/* INIZIO FOOTER */
+
+.footer {
+    background-color: var(--color-p);
+    color: var(--main);
+}
+
+/* FINE FOOTER */
+
+
+/* INIZIO CARD HOMEPAGE */
+
+.cardHeight {
+    max-height: 25vh;
+}
+
+/* FINE CARD HOMEPAGE*/
+
+
+/* STILE SWIPER */
+.swiper {
+    width: 100%;
+    height: 40vh;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review {
+    font-size: 16px;
+    height: 100%;
+    overflow: auto;
+}
+
+/* FINE SWIPER */
+
+
+
+
+/* SEZIONE NUMBERS */
+
+.box-numbers {
+
+    background-color: var(--color-p);
+    border: 2px solid var(--acc);
+    border-radius: 50px;
+    margin: 5px;
+    color: var(--acc);
+
+
+}
+
+.box-numbers:hover {
+    border: 2px solid var(--color-p);
+    background-color: var(--acc);
+    color: var(--color-p);
+    color: var(--color-p);
+
+}
+
+
+
+/* FINE SEZIONE NUMEBERS */
+
+/* HEADER DASHBOARD REVISORE */
+
+
+/* FINE HEADER DASHBOARD REVISORE */
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 660px) {
+    .navCustom {
+        background-color: var(--color-p);
+        backdrop-filter: blur(4px);
+    }
+
+    .navCustomScroll {
+        background-color: var(--main-o);
+        margin: 5vh 6vw;
+        border-radius: 25px;
+        backdrop-filter: blur(4px);
+    }
+
+    .withCategory {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /* scomposizione search bar e dropdown categorie */
+
+    .div-flex {
+        flex-direction: column;
+        /* Disporre gli elementi verticalmente */
+        align-items: stretch;
+        /* Allungare gli elementi */
+    }
+
+    .dropdownButton {
+        width: 100%;
+        /* Far occupare l'intera larghezza */
+        margin-bottom: 10px;
+        /* Spaziatura sotto il pulsante */
+        border-radius: 5px !important;
+    }
+
+
+    .dropdownItems {
+        position: relative;
+        /* Evitare la sovrapposizione */
+        width: 100%;
+        /* Larghezza completa */
+        margin: 0;
+        /* Nessun margine per il dropdown */
+        top: auto;
+        /* Resetta il valore top */
+    }
+
+    .search-bar {
+        width: 110%;
+
+    }
+
+    .btn-custom {
+        width: 25%;
+        /* Larghezza completa */
+        margin-bottom: 0px;
+        /* Spaziatura tra gli elementi */
+        text-wrap: nowrap;
+    }
+
+    .centerCards {
+        justify-content: center;
+    }
+}

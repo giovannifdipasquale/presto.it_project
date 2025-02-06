@@ -1,0 +1,26 @@
+<div class="p-5">
+
+  <div class="card scale-hover" style="width: 18rem;">
+    <img class="card-img-top" src="https://picsum.photos/200" alt="Card image cap">
+
+    <div class="card-body ms-2">
+      <!-- idea: COME SU SUBITO.IT rendere titolo cliccabile -> porta su show, si illumina solo all'hover -->
+
+
+      <h5 class="card-title">
+        <a class="text-decoration-none" href="#">
+          {{ $article->title }}
+        </a>
+      </h5>
+      </h5>
+
+      <p class="card-text" style="--bs-link-hover-color-rgb: 25, 135, 84;"> {{ $article->price }} </p>
+      <!-- idea: categoria che si può cliccare e porta a view categories->article -->
+
+      <h6 class="card-text"> <span class="badge text-bg-secondary"> category_1</span> <span
+          class="badge text-bg-secondary"> category_2</span> <span class="badge text-bg-secondary"> category_3</span>
+        <span class="badge text-bg-secondary"> category_4</span>
+      </h6>
+    </div>
+  </div>
+</div>

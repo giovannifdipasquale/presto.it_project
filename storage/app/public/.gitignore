@@ -1,0 +1,16 @@
+*
+!.gitignore
+
+{
+  "type": "service_account",
+  "project_id": "nuovo-presto",
+  "private_key_id": "5acf07dbb89f4e3e01fdf23517f3fffa28cb876a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC4X8C5pZlh55AY\nT3a2MkO4MYP9Z9+CVtCQJQjZ7Q+RXTXfKj4hue96OUvaZHYvaATlWu4XmDBgtvIc\nRrE1YDKQRi+fYVtxOohFGyvCBBZrYu4osqtfKhCmjsCby5ip8wpUqA4XRcS3fGqt\nydrG9ro1ZrbcsOeUOeocuuzp41gqQ5h0w6VVPLZ+m3GfNnjaovspv46m1pyWHscw\nAAwqPXcGejbPLnqOzhO2nLElOD5aRwvAhj3tSPPZCQEDmY9zax0tjWfzsZyTy2Ut\nDI7O54l9n5KIIlmny+8LhLndH5XmnTpARo++uryIYoBq6oU1bivPyjDbk0NZ4n7l\nCPih0k+xAgMBAAECggEAWV70xSh71oTQCLCwGvX3dHfwAmwQ4BWj6FNDXJt4Md7M\nR74qut9tsUHHvnd3AFi8Es8GXUKEpMTZTBKKQJS+Pcf/upKPKC4WsuTOS6/+jBQ6\n3FhrEGiMBKhqvbotaKfqKIoDto03ozd4YIBZf5tGPK9q0UQhJO0DyeRkBaWRbX5e\nJoe/RFmdCnahs37G4Sdk4SnaPGYf3jYEPgfYYYb0otwtxVapkDDTOZLgVDgY4+u8\nSg4PlNwg8XM4/qf6ElcFp3Zjj3EWm7c6Nw2IUhz7T3jp6XvGEZIzwoLJuwTnPIN3\nL1O3sG+9q1QJzf6gtllx4PhF4TO3ECRSN9whg6dWZwKBgQDHSaEX6Gdp7T1ErU/k\nZXffus3TNR0eIIb40Hhcxy+U5gZ7rfuBHEOmiW/gbl1gQAmxm2h2hHDQD8vll/r2\n5VX6tmweIAgB0w+gdQD4m7oXN+8S3K6WUu/tQDwzWUTTVelj2Tl1qw3lX0KOj72D\nz6ZsOQfzn+rtOKwDJ2LFaGzZ8wKBgQDs16Yy1ILt86gYZxSMATxiaaG+bIMHMrpk\n0V9ZRz/gkqzq3D8ly3jFV4OM3VKyhY7ygXLIkQv1NgglkjQ+0gwwj1Ra8MTQVOth\nAArZsnjToMDXplh58YokPRb80v4RBiJTolOeOk/8JyH1VEGNl6UzFbEYiNuTGQzq\nGeijy7uUywKBgDk3aojysL443t5Y5BcvCruxZma9WR7NN/M351a72W1mnXXk/dCT\nzNiDnRtSlHyN5jqX4+YjIECcSG4itGsubQEOXvxHNgVQE6x960l1bHg+FuXTdkyy\ngzAawS3880W55MhGFbky40p3jyRfIIo3lBB+T0ojH8/79WbyZ+lFkfsBAoGATaBA\nsNhGMYdyyMzAR0MAb6D/ilI2f914iiK1haV8ojZwxml5qQGPi96rFzhTKn/r4j/b\nRzGDIdObx/SrewuNQz03ALd5Sm8K1rgU1lVQlMxTaFr1FMK97DK5nhPpgdro1VCW\n531lSdfpoWcENUxGsP+jE8+HaCcFvJTRUx4rVRECgYBBlHE4Un/DOyz+p04erPJt\nJBnxwWmjkC6xQ8tpTUzd8p52M/MD2KYLgeEIEocqcXgehxT6TdhTYeCsVXhlIk8f\nGs7jSmBFeSR759n6Q9Soo8ePKJm5tNKYWs/VZX8rqDVnjqh59OsP51VGUj4J0/rW\n1fgUMygrzwRnsVuiBlzVbA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "nuovopresto@nuovo-presto.iam.gserviceaccount.com",
+  "client_id": "111782774181079324623",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nuovopresto%40nuovo-presto.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
